@@ -5,7 +5,7 @@ from shutil import copyfile
 
 def mkdir(path):
     path = path.strip()
-    path = path.rstrip("\\")
+    path = path.rstrip("/")
 
     isExists = os.path.exists(path)
 

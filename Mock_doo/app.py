@@ -1,6 +1,6 @@
 import sys
 from pathlib import Path
-from doo.mock import app, extra_files
+from Mock_doo.mock import app, extra_files
 
 
 if __name__ == '__main__':

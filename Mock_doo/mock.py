@@ -3,8 +3,8 @@ import copy
 import sys
 from pathlib import Path
 from time import sleep
-from doo.cap import CapApp
-from doo.data import Excel, Yaml, get_doc
+from Mock_doo.cap import CapApp
+from Mock_doo.data import Excel, Yaml, get_doc
 
 
 type_map = {'int': 'int',
